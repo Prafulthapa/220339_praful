@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>hi</title>
+    </head>
+    <body>
+        <table>
+            <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>age</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>praful</td>
+                <td>thapa</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>chris</td>
+                <td>brown</td>
+                <td>34</td>
+            </tr>
+        </tbody>
+        </table>
+    </body>
+    
+</html>
