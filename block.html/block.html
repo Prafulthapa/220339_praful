@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELLO KIDS</title>
+    <style>
+        /*flex method */
+        .center-align{
+            width: 100%;
+            background: red;
+            display: flex;
+            height: 300px;
+            align-items: center;
+            justify-content: center;
+        }
+        .block {
+            display: block;
+            color: wheat;
+            background-color: blue;
+            padding: 40px;
+            height: 200px;
+            width: 1000px;
+            margin: 10px;
+            box-sizing: content-box;
+            align-items: center;
+            justify-content: center;
+        }
+        .inline {
+            display: block;
+            color: wheat;
+            background-color: purple;
+            padding: 40px;
+            height: 200px;
+            width: 1000px;
+            margin: 10px;
+            box-sizing: content-box;
+        }
+        .inline-block {
+            display: block;
+            color: wheat;
+            background-color: black;
+            padding: 40px;
+            height: 200px;
+            width: 1000px;
+            margin: 10px;
+            box-sizing: content-box;
+        }
+        /*grid method*/
+        .center-align{
+            display: grid;
+            place-items: center;
+            background: green;
+            height: 300px;
+        }
+    </style>
+</head>
+    <body>
+     <div class="block">
+        <h1>This is block level heading</h1>
+        <p>This is block level paragraph</p>
+     </div>
+     <div class="block">
+        <h2>heading two</h2>
+        <p>This is block level paragraph two</p>
+     </div>
+     <div class="block">
+        <h3>heading three</h3>
+        <p>This is block level paragraph three</p>
+     </div>
+     <div class="block">
+        <h3>heading four</h3>
+        <p>This is block level paragraph four</p>
+     </div>
+     <div class="inline">
+        <h3>heading five</h3>
+        <p>This is block level paragraph five</p>
+     </div>
+     <div class="inline-block">
+        <h3>heading six</h3>
+        <p>This is block level paragraph four</p>
+     </div>
+     </body>
+</html>
